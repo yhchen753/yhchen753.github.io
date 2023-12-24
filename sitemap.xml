@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yhchen753.github.io/blog/</loc>
+    <lastmod>2023-12-25T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://yhchen753.github.io/categories/</loc>
+    <lastmod>2023-12-25T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://yhchen753.github.io/tags/github/</loc>
+    <lastmod>2023-12-25T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://yhchen753.github.io/tags/</loc>
+    <lastmod>2023-12-25T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://yhchen753.github.io/</loc>
+    <lastmod>2023-12-25T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://yhchen753.github.io/categories/%E5%85%B6%E4%BB%96%E5%88%86%E9%A1%9E/</loc>
+    <lastmod>2023-12-25T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://yhchen753.github.io/blog/start/</loc>
+    <lastmod>2023-12-25T00:00:00+08:00</lastmod>
+  </url><url>
     <loc>https://yhchen753.github.io/about/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
   </url><url>
@@ -10,12 +31,5 @@
   </url><url>
     <loc>https://yhchen753.github.io/search/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
-  </url><url>
-    <loc>https://yhchen753.github.io/</loc>
-    <lastmod>2019-10-29T13:49:23+06:00</lastmod>
-  </url><url>
-    <loc>https://yhchen753.github.io/categories/</loc>
-  </url><url>
-    <loc>https://yhchen753.github.io/tags/</loc>
   </url>
 </urlset>
