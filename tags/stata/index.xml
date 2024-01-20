@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stata on YH Chen | Personal blog</title>
+    <link>https://yhchen753.github.io/tags/stata/</link>
+    <description>Recent content in Stata on YH Chen | Personal blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 20 Jan 2024 15:00:00 +0800</lastBuildDate>
+    <atom:link href="https://yhchen753.github.io/tags/stata/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Stata 基準值設定</title>
+      <link>https://yhchen753.github.io/blog/da-1-stata/</link>
+      <pubDate>Sat, 20 Jan 2024 15:00:00 +0800</pubDate>
+      <guid>https://yhchen753.github.io/blog/da-1-stata/</guid>
+      <description>使用情境 當我們想要看各國 GDP 的變動情形，會需要2個步驟：
+Step 1. 建立基準年變數 Base2020 ， 以 2020年的 GDP 資料為基準年</description>
+    </item>
+  </channel>
+</rss>

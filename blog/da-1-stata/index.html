@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>YH Chen | Personal blog</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content=" ">
+  <meta name="author" content="YH Chen">
+    
+  
+  <meta name="theme-name" content="liva-hugo" />
+  
+  <meta name="generator" content="Hugo 0.120.4">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://yhchen753.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://yhchen753.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://yhchen753.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://yhchen753.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://yhchen753.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://yhchen753.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://yhchen753.github.io/images/favicon.png " type="image/x-icon">
+
+  
+  
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-70VGQKC6EQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-70VGQKC6EQ');
+</script>
+
+
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://yhchen753.github.io"><img class="img-fluid"
+          src="https://yhchen753.github.io/images/%E9%A6%96%E9%A0%81logo.png" alt="YH Chen | Personal blog"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/yhchen753"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/yu-heng-chen-16039925a/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://yhchen753.github.io"><img class="img-fluid"
+            src="https://yhchen753.github.io/images/%E9%A6%96%E9%A0%81logo.png" alt="YH Chen | Personal blog"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://yhchen753.github.io/">Home</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://yhchen753.github.io/about/">About</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://yhchen753.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/%e6%95%b8%e6%93%9a%e5%88%86%e6%9e%90"
+          class="text-primary">數據分析</a>
+        
+        <h2>Stata 基準值設定</h2>
+        <div class="mb-3 post-meta">
+          <span>By YH Chen</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>20 January 2024</span>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <hr>
+<h5 id="使用情境">使用情境</h5>
+<p>當我們想要看各國 GDP 的變動情形，會需要2個步驟：</p>
+<p>Step 1. 建立基準年變數 <code>Base2020</code> ， 以 2020年的 GDP 資料為基準年</p>
+<p>Step 2. 使用 <code>GDP</code> 和 <code>Base2020</code> 來計算變動的差異</p>
+<p>這邊只示範 &lt;Step 1.&gt; 建立 <code>Base2020</code> 的方法，首先原始資料包含 <code> Country</code>、
+<code> Year</code> 和 <code>GDP</code> 3 個變數，資料形式如下：</p>
+<h5 id="原始資料">原始資料</h5>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Country</th>
+<th style="text-align:left">Year</th>
+<th style="text-align:left">GDP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">USA</td>
+<td style="text-align:left">2019</td>
+<td style="text-align:left">2.138E+13</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>USA</strong></td>
+<td style="text-align:left"><strong>2020</strong></td>
+<td style="text-align:left"><strong>2.106E+13</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">USA</td>
+<td style="text-align:left">2021</td>
+<td style="text-align:left">2.332E+13</td>
+</tr>
+<tr>
+<td style="text-align:left">China</td>
+<td style="text-align:left">2019</td>
+<td style="text-align:left">1.428E+13</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>China</strong></td>
+<td style="text-align:left"><strong>2020</strong></td>
+<td style="text-align:left"><strong>1.469E+13</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">China</td>
+<td style="text-align:left">2021</td>
+<td style="text-align:left">1.782E+13</td>
+</tr>
+<tr>
+<td style="text-align:left">Germany</td>
+<td style="text-align:left">2019</td>
+<td style="text-align:left">3.888E+12</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Germany</strong></td>
+<td style="text-align:left"><strong>2020</strong></td>
+<td style="text-align:left"><strong>3.890E+12</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Germany</td>
+<td style="text-align:left">2021</td>
+<td style="text-align:left">4.260E+12</td>
+</tr>
+<tr>
+<td style="text-align:left">UK</td>
+<td style="text-align:left">2019</td>
+<td style="text-align:left">2.857E+12</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>UK</strong></td>
+<td style="text-align:left"><strong>2020</strong></td>
+<td style="text-align:left"><strong>2.705E+12</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">UK</td>
+<td style="text-align:left">2021</td>
+<td style="text-align:left">3.122E+12</td>
+</tr>
+<tr>
+<td style="text-align:left">Japan</td>
+<td style="text-align:left">2019</td>
+<td style="text-align:left">5.118E+12</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Japan</strong></td>
+<td style="text-align:left"><strong>2020</strong></td>
+<td style="text-align:left"><strong>5.049E+12</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Japan</td>
+<td style="text-align:left">2021</td>
+<td style="text-align:left">5.006E+12</td>
+</tr>
+</tbody>
+</table>
+<p><a href="https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?end=2022&amp;start=1960&amp;view=chart">*GDP的資料可以從世界銀行 (World Bank) 的網站下載</a></p>
+<h5 id="stata-code">Stata Code</h5>
+<p>建立基準年的語法：<code>egen Base2020 = total(cond(Year == 2020, GDP, .)), by(Country)</code></p>
+<p>上面這段 Code，可以拆解成 2 個部分 ：</p>
+<ol>
+<li>egen 函數，<code>egen new_var = total (GDP), by(Country) </code></li>
+</ol>
+<p>這段語法的意思是建立新變數 <code>new_var</code> ，<code>new_var</code> 的內容，是根據 <code>Country</code> 加總所有的 <code>GDP</code></p>
+<ol start="2">
+<li>cond 函數，<code>cond(Year == 2020, GDP, .)</code></li>
+</ol>
+<p>上面語法的意思，當資料中變數 <code>Year</code> = 2020時，回傳變數 <code>GDP</code> 的值，如果變數 <code>Year</code> ≠ 2020時，則回傳 .，條件函數的使用：<code>cond(條件, 條件符合時回傳的內容, 條件不符合時回傳的內容)</code></p>
+<p>最後，再將 egen 函數 和 cond 函數合併後，就可以得到以 2020年的 GDP 資料為基準年的資料，用 total 來設定的原因是因為資料中，每個國家每一年只會有一個GDP資料，不會有重複加總的問題，建立 <code>Base2020</code> 後的資料形式如下：</p>
+<h5 id="建立--base2020--後的資料">建立 <code>Base2020</code> 後的資料</h5>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Country</th>
+<th style="text-align:left">Year</th>
+<th style="text-align:left">GDP</th>
+<th style="text-align:left">Base2020</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">USA</td>
+<td style="text-align:left">2019</td>
+<td style="text-align:left">2.138E+13</td>
+<td style="text-align:left">2.106E+13</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>USA</strong></td>
+<td style="text-align:left"><strong>2020</strong></td>
+<td style="text-align:left"><strong>2.106E+13</strong></td>
+<td style="text-align:left">2.106E+13</td>
+</tr>
+<tr>
+<td style="text-align:left">USA</td>
+<td style="text-align:left">2021</td>
+<td style="text-align:left">2.332E+13</td>
+<td style="text-align:left">2.106E+13</td>
+</tr>
+<tr>
+<td style="text-align:left">China</td>
+<td style="text-align:left">2019</td>
+<td style="text-align:left">1.428E+13</td>
+<td style="text-align:left">1.469E+13</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>China</strong></td>
+<td style="text-align:left"><strong>2020</strong></td>
+<td style="text-align:left"><strong>1.469E+13</strong></td>
+<td style="text-align:left">1.469E+13</td>
+</tr>
+<tr>
+<td style="text-align:left">China</td>
+<td style="text-align:left">2021</td>
+<td style="text-align:left">1.782E+13</td>
+<td style="text-align:left">1.469E+13</td>
+</tr>
+<tr>
+<td style="text-align:left">Germany</td>
+<td style="text-align:left">2019</td>
+<td style="text-align:left">3.888E+12</td>
+<td style="text-align:left">3.890E+12</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Germany</strong></td>
+<td style="text-align:left"><strong>2020</strong></td>
+<td style="text-align:left"><strong>3.890E+12</strong></td>
+<td style="text-align:left">3.890E+12</td>
+</tr>
+<tr>
+<td style="text-align:left">Germany</td>
+<td style="text-align:left">2021</td>
+<td style="text-align:left">4.260E+12</td>
+<td style="text-align:left">3.890E+12</td>
+</tr>
+<tr>
+<td style="text-align:left">UK</td>
+<td style="text-align:left">2019</td>
+<td style="text-align:left">2.857E+12</td>
+<td style="text-align:left">2.705E+12</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>UK</strong></td>
+<td style="text-align:left"><strong>2020</strong></td>
+<td style="text-align:left"><strong>2.705E+12</strong></td>
+<td style="text-align:left">2.705E+12</td>
+</tr>
+<tr>
+<td style="text-align:left">UK</td>
+<td style="text-align:left">2021</td>
+<td style="text-align:left">3.122E+12</td>
+<td style="text-align:left">2.705E+12</td>
+</tr>
+<tr>
+<td style="text-align:left">Japan</td>
+<td style="text-align:left">2019</td>
+<td style="text-align:left">5.118E+12</td>
+<td style="text-align:left">5.049E+12</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Japan</strong></td>
+<td style="text-align:left"><strong>2020</strong></td>
+<td style="text-align:left"><strong>5.049E+12</strong></td>
+<td style="text-align:left">5.049E+12</td>
+</tr>
+<tr>
+<td style="text-align:left">Japan</td>
+<td style="text-align:left">2021</td>
+<td style="text-align:left">5.006E+12</td>
+<td style="text-align:left">5.049E+12</td>
+</tr>
+</tbody>
+</table>
+<p><strong>&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;</strong></p>
+<h5 id="cond-函數的其他使用方式">cond 函數的其他使用方式</h5>
+<ol>
+<li>單一條件分組</li>
+</ol>
+<p><code>gen group1 = cond(GDP &gt;=  2.69e+12, &quot;super high&quot;, &quot;high&quot;) </code></p>
+<ol start="2">
+<li>多個條件分組</li>
+</ol>
+<p><code>gen group2 = cond(GDP &gt;= 5.05e+12, &quot;A++&quot;, cond(GDP &gt;= 1.90e+12 &amp; GDP &lt; 5.05e+12, &quot;A+&quot;, cond(GDP &lt; 1.90e+12 , &quot;A&quot;, &quot;.&quot;))) </code></p>
+<h5 id="分組後的資料">分組後的資料</h5>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Country</th>
+<th style="text-align:left">Year</th>
+<th style="text-align:left">GDP</th>
+<th style="text-align:left">group1</th>
+<th style="text-align:left">group2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Brazil</td>
+<td style="text-align:left">2020</td>
+<td style="text-align:left">1.476E+12</td>
+<td style="text-align:left">high</td>
+<td style="text-align:left">A</td>
+</tr>
+<tr>
+<td style="text-align:left">Canada</td>
+<td style="text-align:left">2020</td>
+<td style="text-align:left">1.648E+12</td>
+<td style="text-align:left">high</td>
+<td style="text-align:left">A</td>
+</tr>
+<tr>
+<td style="text-align:left">China</td>
+<td style="text-align:left">2020</td>
+<td style="text-align:left">1.469E+13</td>
+<td style="text-align:left">super high</td>
+<td style="text-align:left">A++</td>
+</tr>
+<tr>
+<td style="text-align:left">France</td>
+<td style="text-align:left">2020</td>
+<td style="text-align:left">2.639E+12</td>
+<td style="text-align:left">high</td>
+<td style="text-align:left">A+</td>
+</tr>
+<tr>
+<td style="text-align:left">Germany</td>
+<td style="text-align:left">2020</td>
+<td style="text-align:left">3.890E+12</td>
+<td style="text-align:left">super high</td>
+<td style="text-align:left">A+</td>
+</tr>
+<tr>
+<td style="text-align:left">India</td>
+<td style="text-align:left">2020</td>
+<td style="text-align:left">2.672E+12</td>
+<td style="text-align:left">high</td>
+<td style="text-align:left">A+</td>
+</tr>
+<tr>
+<td style="text-align:left">Italy</td>
+<td style="text-align:left">2020</td>
+<td style="text-align:left">1.897E+12</td>
+<td style="text-align:left">high</td>
+<td style="text-align:left">A</td>
+</tr>
+<tr>
+<td style="text-align:left">Japan</td>
+<td style="text-align:left">2020</td>
+<td style="text-align:left">5.049E+12</td>
+<td style="text-align:left">super high</td>
+<td style="text-align:left">A+</td>
+</tr>
+<tr>
+<td style="text-align:left">UK</td>
+<td style="text-align:left">2020</td>
+<td style="text-align:left">2.705E+12</td>
+<td style="text-align:left">super high</td>
+<td style="text-align:left">A+</td>
+</tr>
+<tr>
+<td style="text-align:left">USA</td>
+<td style="text-align:left">2020</td>
+<td style="text-align:left">2.106E+13</td>
+<td style="text-align:left">super high</td>
+<td style="text-align:left">A++</td>
+</tr>
+</tbody>
+</table>
+
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yhchen753" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<script>
+  var indexURL = "https://yhchen753.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://yhchen753.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://yhchen753.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://yhchen753.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://yhchen753.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://yhchen753.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://yhchen753.github.io/plugins/search/mark.js"></script>
+
+<script src="https://yhchen753.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://yhchen753.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>
