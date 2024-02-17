@@ -5,7 +5,7 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="YH Chen 心得分享">
+  <meta name="description" content=" ">
   <meta name="author" content="YH Chen">
     
   
@@ -117,106 +117,110 @@
 </header>
 <!-- /navigation -->
 
-
 <section class="section-sm">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 mb-5 mb-lg-0">
-        <div class="row">
-          
-          
-          <div class="col-md-6 mb-4">
-    <article class="card">
+      <div class="col-lg-8 mx-auto">
         
-        <div class="card-body px-0">
+        <a href="/categories/%e6%95%b8%e6%93%9a%e5%88%86%e6%9e%90"
+          class="text-primary">數據分析</a>
         
-        <a href="/categories/%e5%85%b6%e4%bb%96%e5%88%86%e9%a1%9e"
-            class="text-primary">其他分類</a>
-        
-        <a href="https://yhchen753.github.io/blog/start/" class="h5 d-block my-3">網站的起點和架站心得</a>
+        <h2>【Tableau】圓餅圖、圓環圖 設定</h2>
         <div class="mb-3 post-meta">
-            <span>By YH Chen</span>
-            
-            <span class="border-bottom border-primary px-2 mx-1"></span>
-            <span>2023-12-25</span>
-            
-        </div>
-        <p class="card-text"> </p>
-        <a href="https://yhchen753.github.io/blog/start/" class="btn btn-outline-primary">read more</a>
-        </div>
-    </article>
-</div>
+          <span>By YH Chen</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>17 February 2024</span>
           
         </div>
-      </div>
-      
-      <div class="col-lg-4">
-  <div class="widgets">
-    
-    <div class="widget">
-      
-      <h4 class="widget-title">About Me</h4>
-      
-      <img src="https://yhchen753.github.io/images/%E9%A0%AD%E8%B2%BCauthor.png" alt=""
-        class="img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4">
-      
-      <p>YH Chen</p>
-      <a href="https://yhchen753.github.io/about/" class="btn btn-outline-primary">Know More</a>
-      
-    </div>
-    
-    <div class="widget">
-      <h4 class="widget-title">Category</h4>
-      <ul class="list-unstyled">
-        <li><a
-            href="/categories/%e5%85%b6%e4%bb%96%e5%88%86%e9%a1%9e/">其他分類</a>
-        </li>
-        <li><a
-            href="/categories/%e6%95%b8%e6%93%9a%e5%88%86%e6%9e%90/">數據分析</a>
-        </li>
-        <li><a
-            href="/categories/%e9%96%b1%e8%ae%80%e6%9b%b8%e5%96%ae/">閱讀書單</a>
-        </li>
-      </ul>
-    </div>
-    
-    <div class="widget">
-      <h4 class="widget-title">Tag</h4>
-      <ul class="list-inline">
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/github/">Github</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/stata/">Stata</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/tableau/">Tableau</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/tags/visualization/">Visualization</a></li>
-      </ul>
-    </div>
-    
-    <div class="widget">
-      <h4 class="widget-title">Social</h4>
-      <ul class="list-inline social-links">
         
-        <li class="list-inline-item"><a href="https://github.com/yhchen753"><i class="ti-github"></i></a></li>
-        
-        <li class="list-inline-item"><a href="https://www.linkedin.com/in/yu-heng-chen-16039925a/"><i class="ti-linkedin"></i></a></li>
-        
-      </ul>
-    </div>
-   
+        <div class="content mb-5">
+          <hr>
+<h5 id="使用情境">使用情境</h5>
+<p>不管是在什麼領域和情境下，圓餅圖都是我們很常會使用到的資料視覺化圖形。</p>
+<p>不過以我自己的經驗來說，圓餅圖有時候在文件和簡報的排版上，呈現出來效果的不太理想 (看起來太重或是很擠)，這時候改成用圓環圖來呈現的話，文件或簡報就會看起來相對簡約和美觀。</p>
+<p>這次會分別記錄圓餅圖、圓環圖的設定，不過主要是想要介紹『圓環圖』的設定。</p>
+<p>使用台灣人口結構分佈的資料來做示範，為了方便操作有事先將資料整理過和簡化，完整的台灣人口統計資料可以從<a href="https://www.ris.gov.tw/app/portal/346">內政部戶政司的網站下載</a>，整理後的資料形式如下：</p>
+<h5 id="原始資料">原始資料</h5>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">年齡區段</th>
+<th style="text-align:left">人口數</th>
+<th style="text-align:left">人口數 (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">0-19歲</td>
+<td style="text-align:left">3,829,910</td>
+<td style="text-align:left">16.35</td>
+</tr>
+<tr>
+<td style="text-align:left">20-64歲</td>
+<td style="text-align:left">15,293,547</td>
+<td style="text-align:left">65.30</td>
+</tr>
+<tr>
+<td style="text-align:left">65歲以上</td>
+<td style="text-align:left">4,296,985</td>
+<td style="text-align:left">18.35</td>
+</tr>
+</tbody>
+</table>
+<p>*資料截至2023年12月底</p>
+<hr>
+<h5 id="操作示範">操作示範</h5>
+<p>在寫這篇的時候，發現 Tableau 的操作很難用文字的方式解釋清楚，因為裡面很多功能的設定都是靠拖曳的方式完成，所以示範操作的過程就直接用影片的方式來記錄了。</p>
+<ul>
+<li>
+<h6 id="圓餅圖">圓餅圖</h6>
+</li>
+</ul>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/c2qVIrHXJoU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
-      
+<ul>
+<li>
+<h6 id="圓環圖">圓環圖</h6>
+</li>
+</ul>
 
-      
-      <div class="col-12 mt-5">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/2ickCLHZp5w" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<hr>
+
+        </div>
+
         
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yhchen753" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
       </div>
     </div>
   </div>
 </section>
-
 
 
 

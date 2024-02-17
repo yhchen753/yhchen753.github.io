@@ -6,8 +6,22 @@
     <description>Recent content in Tags on YH Chen | Personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 20 Jan 2024 15:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 17 Feb 2024 14:00:00 +0800</lastBuildDate>
     <atom:link href="https://yhchen753.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tableau</title>
+      <link>https://yhchen753.github.io/tags/tableau/</link>
+      <pubDate>Sat, 17 Feb 2024 14:00:00 +0800</pubDate>
+      <guid>https://yhchen753.github.io/tags/tableau/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Visualization</title>
+      <link>https://yhchen753.github.io/tags/visualization/</link>
+      <pubDate>Sat, 17 Feb 2024 14:00:00 +0800</pubDate>
+      <guid>https://yhchen753.github.io/tags/visualization/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Stata</title>
       <link>https://yhchen753.github.io/tags/stata/</link>

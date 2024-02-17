@@ -6,10 +6,21 @@
     <description>Recent content in Blogs on YH Chen | Personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 20 Jan 2024 15:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 17 Feb 2024 14:00:00 +0800</lastBuildDate>
     <atom:link href="https://yhchen753.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title> Stata 基準值設定</title>
+      <title>【Tableau】圓餅圖、圓環圖 設定</title>
+      <link>https://yhchen753.github.io/blog/da-2-tableau/</link>
+      <pubDate>Sat, 17 Feb 2024 14:00:00 +0800</pubDate>
+      <guid>https://yhchen753.github.io/blog/da-2-tableau/</guid>
+      <description>使用情境 不管是在什麼領域和情境下，圓餅圖都是我們很常會使用到的資料視覺化圖形。
+不過以我自己的經驗來說，圓餅圖有時候在文件和簡報的排版上，呈現出來效果的不太理想 (看起來太重或是很擠)，這時候改成用圓環圖來呈現的話，文件或簡報就會看起來相對簡約和美觀。
+這次會分別記錄圓餅圖、圓環圖的設定，不過主要是想要介紹『圓環圖』的設定。
+使用台灣人口結構分佈的資料來做示範，為了方便操作有事先將資料整理過和簡化，完整的台灣人口統計資料可以從內政部戶政司的網站下載，整理後的資料形式如下：
+原始資料 年齡區段 人口數 人口數 (%) 0-19歲 3,829,910 16.</description>
+    </item>
+    <item>
+      <title>【Stata】基準值設定</title>
       <link>https://yhchen753.github.io/blog/da-1-stata/</link>
       <pubDate>Sat, 20 Jan 2024 15:00:00 +0800</pubDate>
       <guid>https://yhchen753.github.io/blog/da-1-stata/</guid>
