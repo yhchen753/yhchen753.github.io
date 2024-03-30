@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Excel on YH Chen | Personal blog</title>
+    <link>https://yhchen753.github.io/tags/excel/</link>
+    <description>Recent content in Excel on YH Chen | Personal blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 30 Mar 2024 23:00:00 +0800</lastBuildDate>
+    <atom:link href="https://yhchen753.github.io/tags/excel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【Excel】下拉式選單設定的兩個方法</title>
+      <link>https://yhchen753.github.io/blog/da-3-excel/</link>
+      <pubDate>Sat, 30 Mar 2024 23:00:00 +0800</pubDate>
+      <guid>https://yhchen753.github.io/blog/da-3-excel/</guid>
+      <description>資料型態介紹 這次是要介紹 Excel 使用，但在一開始要說一下資料的型態可以分成兩種： 1. Panel data (縱橫資料) 2. Cross-sectional data (截面資料)，後面 Excel 的示範會需要注意到資料的型態，操作上會有一點點的差異，不過基本上只要夠熟悉自己手邊要分析的資料，資料型態是可以互換的。</description>
+    </item>
+  </channel>
+</rss>
