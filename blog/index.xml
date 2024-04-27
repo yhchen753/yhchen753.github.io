@@ -6,8 +6,31 @@
     <description>Recent content in Blogs on YH Chen | Personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 30 Mar 2024 23:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 27 Apr 2024 19:10:00 +0800</lastBuildDate>
     <atom:link href="https://yhchen753.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【SQL】計算累計加總的方法</title>
+      <link>https://yhchen753.github.io/blog/da-6-sql/</link>
+      <pubDate>Sat, 27 Apr 2024 19:10:00 +0800</pubDate>
+      <guid>https://yhchen753.github.io/blog/da-6-sql/</guid>
+      <description>使用情境 根據 82 法則，當我們想知道全球 80% 的GDP 是集中在哪些國家上，可以使用「累積加總」的概念，找出正確的國家名單。
+不過，接下來使用的範例不會是完整的全球 GDP 資料，詳細的原因和完整的使用情境可以參考之前的文章：【Stata】計算累計加總的方法</description>
+    </item>
+    <item>
+      <title>【Excel】計算累計加總的方法</title>
+      <link>https://yhchen753.github.io/blog/da-5-excel/</link>
+      <pubDate>Sat, 27 Apr 2024 19:05:00 +0800</pubDate>
+      <guid>https://yhchen753.github.io/blog/da-5-excel/</guid>
+      <description>使用情境 根據 82 法則，當我們想知道全球 80% 的GDP 是集中在哪些國家上，可以使用「累積加總」的概念，找出正確的國家名單。
+不過，接下來使用的範例不會是完整的全球 GDP 資料，詳細的原因和完整的使用情境可以參考之前的文章：【Stata】計算累計加總的方法</description>
+    </item>
+    <item>
+      <title>【Stata】計算累計加總的方法</title>
+      <link>https://yhchen753.github.io/blog/da-4-stata/</link>
+      <pubDate>Sat, 27 Apr 2024 19:00:00 +0800</pubDate>
+      <guid>https://yhchen753.github.io/blog/da-4-stata/</guid>
+      <description>使用情境 這篇文章的發想來自 82 法則 (Pareto Principle)，常見的說法是 80% 的財富集中在 20% 的人手上，如果我們有這份財富統計資料，想要知道這 20% 的人的名單的話，就可以用「累積加總」的概念找出 80% 的財富是集中在哪些人的手上。</description>
+    </item>
     <item>
       <title>【Excel】下拉式選單設定的兩個方法</title>
       <link>https://yhchen753.github.io/blog/da-3-excel/</link>
