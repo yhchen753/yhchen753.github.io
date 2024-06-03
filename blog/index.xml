@@ -6,8 +6,19 @@
     <description>Recent content in Blogs on YH Chen | Personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 27 Apr 2024 19:10:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 03 Jun 2024 23:05:00 +0800</lastBuildDate>
     <atom:link href="https://yhchen753.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【Excel】快速批次將文字轉成數字</title>
+      <link>https://yhchen753.github.io/blog/da-7-excel/</link>
+      <pubDate>Mon, 03 Jun 2024 23:05:00 +0800</pubDate>
+      <guid>https://yhchen753.github.io/blog/da-7-excel/</guid>
+      <description>使用情境 這篇的內容非常的簡單，但卻是很容易會忘記可以使用到的小技巧
+像是有時候取得的資料，會出現&amp;quot;數字&amp;quot;卻是以&amp;quot;文字形式&amp;quot;儲存的狀況 (儲存格左上角會出現三角形圖示，如下圖)
+*圖片來源：YH Chen
+這個時候如果直接對&amp;quot;文字形式&amp;quot;的&amp;quot;數字&amp;quot;進行加總 SUM(B2:B17)，就沒有辦法得到正確的結果
+在資料筆數較少的情況下，也許可以手動一個一個點&amp;quot;轉換成數字&amp;quot; (如下圖)</description>
+    </item>
     <item>
       <title>【SQL】計算累計加總的方法</title>
       <link>https://yhchen753.github.io/blog/da-6-sql/</link>
