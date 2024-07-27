@@ -6,8 +6,17 @@
     <description>Recent content in 數據分析 on YH Chen | Personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 03 Jun 2024 23:05:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jul 2024 17:08:00 +0800</lastBuildDate>
     <atom:link href="https://yhchen753.github.io/categories/%E6%95%B8%E6%93%9A%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【Excel】找出同類別的最大或最小值</title>
+      <link>https://yhchen753.github.io/blog/da-8-excel/</link>
+      <pubDate>Sat, 27 Jul 2024 17:08:00 +0800</pubDate>
+      <guid>https://yhchen753.github.io/blog/da-8-excel/</guid>
+      <description>使用情境 這篇的內容我自己覺得非常實用，不過在下筆的時候才發現方法的使用不容易文字化
+那就用每個人都一定熟悉的情境來為這次要介紹的方法做舉例：考試成績
+假設整個學期，數學會有 5 次的小考，可以用這 5 次小考中最高分的那一次，當作整學期數學的平時成績，在這樣的情況下，就可以用 「找出同類別 (同學) 中最大值 (成績)」這個方法，找出每一位同學 5 次小考中成績最高的那一次</description>
+    </item>
     <item>
       <title>【Excel】快速批次將文字轉成數字</title>
       <link>https://yhchen753.github.io/blog/da-7-excel/</link>
