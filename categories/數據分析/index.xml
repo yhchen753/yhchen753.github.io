@@ -6,8 +6,21 @@
     <description>Recent content in 數據分析 on YH Chen | Personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 27 Jul 2024 17:08:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 31 Aug 2024 23:00:00 +0800</lastBuildDate>
     <atom:link href="https://yhchen753.github.io/categories/%E6%95%B8%E6%93%9A%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【Stata】整理資料時要注意模糊比對功能</title>
+      <link>https://yhchen753.github.io/blog/da-9-stata/</link>
+      <pubDate>Sat, 31 Aug 2024 23:00:00 +0800</pubDate>
+      <guid>https://yhchen753.github.io/blog/da-9-stata/</guid>
+      <description>使用情境 這一篇是非常簡單，主要是用來提醒自己在整理資料的時候需要注意的小地方
+大部分的數據分析工具，在做資料分析的時候都會有模糊比對和完全比對兩種功能
+模糊比對在多數的情況下是很棒的功能，但是&amp;hellip;
+當我們在做數據分析，最一開始資料整理的時候，就需要特別小心資料變數的建立和設定
+我曾經因為在第一步的資料整理部分，沒有注意到Stata的模糊比對，導致後面要花很多時間回頭對資料
+這部分很重要，因為如果我們沒有辦確認變數的定義，產出的結果就會是錯誤的
+原始資料 這次的示範不用理解變數定義，直接使用 Stata 內建的資料庫 sysuse nlsw88, clear</description>
+    </item>
     <item>
       <title>【Excel】找出同類別的最大或最小值</title>
       <link>https://yhchen753.github.io/blog/da-8-excel/</link>
