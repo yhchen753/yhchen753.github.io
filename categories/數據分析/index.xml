@@ -6,8 +6,18 @@
     <description>Recent content in 數據分析 on YH Chen | Personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 31 Aug 2024 23:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 21 Oct 2024 22:30:00 +0800</lastBuildDate>
     <atom:link href="https://yhchen753.github.io/categories/%E6%95%B8%E6%93%9A%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【Stata】找出同類別的最大或最小值</title>
+      <link>https://yhchen753.github.io/blog/da-10-stata/</link>
+      <pubDate>Mon, 21 Oct 2024 22:30:00 +0800</pubDate>
+      <guid>https://yhchen753.github.io/blog/da-10-stata/</guid>
+      <description>使用情境 完整的使用情境可以參考之前的文章：【Excel】找出同類別的最大或最小值
+原始資料 資料使用內政部戶政司全球資訊網：台灣各地人口增長率資料
+下載的資料經過簡單的整理後，只留下六都 107-109年的資料 (如下圖)
+*圖片來源：YH Chen</description>
+    </item>
     <item>
       <title>【Stata】整理資料時要注意模糊比對功能</title>
       <link>https://yhchen753.github.io/blog/da-9-stata/</link>
