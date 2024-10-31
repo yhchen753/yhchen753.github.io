@@ -6,8 +6,17 @@
     <description>Recent content in 數據分析 on YH Chen | Personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 21 Oct 2024 22:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 31 Oct 2024 15:00:00 +0800</lastBuildDate>
     <atom:link href="https://yhchen753.github.io/categories/%E6%95%B8%E6%93%9A%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【Stata】基準值設定2 (區間的平均值)</title>
+      <link>https://yhchen753.github.io/blog/da-11-stata/</link>
+      <pubDate>Thu, 31 Oct 2024 15:00:00 +0800</pubDate>
+      <guid>https://yhchen753.github.io/blog/da-11-stata/</guid>
+      <description>使用情境 之前在 【Stata】基準值設定 的文章中介紹過基準值的設定，但那時候只考慮了提取資料中某一個年份的值作為基準值
+但考慮到有時候使用一段區間的平均值，來設定基準值可能會更符合資料分析應用的實際情況，因此在這篇文章是要示範如何計算資料中某一段區間的平均值，並將計算的結果作為基準值
+原始資料 資料的使用，同樣沿用 【Stata】基準值設定 文章中的資料， 使用 世界銀行 (World Bank)的全球GDP資料</description>
+    </item>
     <item>
       <title>【Stata】找出同類別的最大或最小值</title>
       <link>https://yhchen753.github.io/blog/da-10-stata/</link>
