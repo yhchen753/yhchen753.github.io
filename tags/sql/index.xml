@@ -4,7 +4,7 @@
     <title>SQL on YH Chen | Personal blog</title>
     <link>https://yhchen753.github.io/tags/sql/</link>
     <description>Recent content in SQL on YH Chen | Personal blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-tw</language>
     <lastBuildDate>Sat, 27 Apr 2024 19:10:00 +0800</lastBuildDate>
     <atom:link href="https://yhchen753.github.io/tags/sql/index.xml" rel="self" type="application/rss+xml" />
@@ -13,8 +13,7 @@
       <link>https://yhchen753.github.io/blog/da-6-sql/</link>
       <pubDate>Sat, 27 Apr 2024 19:10:00 +0800</pubDate>
       <guid>https://yhchen753.github.io/blog/da-6-sql/</guid>
-      <description>使用情境 根據 82 法則，當我們想知道全球 80% 的GDP 是集中在哪些國家上，可以使用「累積加總」的概念，找出正確的國家名單。
-不過，接下來使用的範例不會是完整的全球 GDP 資料，詳細的原因和完整的使用情境可以參考之前的文章：【Stata】計算累計加總的方法</description>
+      <description>&lt;hr&gt;&#xA;&lt;h5 id=&#34;使用情境&#34;&gt;使用情境&lt;/h5&gt;&#xA;&lt;p&gt;根據 82 法則，當我們想知道全球 80% 的GDP 是集中在哪些國家上，可以使用「累積加總」的概念，找出正確的國家名單。&lt;/p&gt;&#xA;&lt;p&gt;不過，接下來使用的範例不會是完整的全球 GDP 資料，詳細的原因和完整的使用情境可以參考之前的文章：&lt;a href=&#34;https://yhchen753.github.io/blog/da-4-stata&#34;&gt;【Stata】計算累計加總的方法&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

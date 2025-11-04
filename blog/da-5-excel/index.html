@@ -11,7 +11,7 @@
   
   <meta name="theme-name" content="liva-hugo" />
   
-  <meta name="generator" content="Hugo 0.120.4">
+  <meta name="generator" content="Hugo 0.139.5">
 
   <!-- plugins -->
   
@@ -57,7 +57,7 @@
   <div class="container">
     
     <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
-      <a class="navbar-brand mobile-view" href="https://yhchen753.github.io"><img class="img-fluid"
+      <a class="navbar-brand mobile-view" href="https://yhchen753.github.io/"><img class="img-fluid"
           src="https://yhchen753.github.io/images/%E9%A6%96%E9%A0%81logo.png" alt="YH Chen | Personal blog"></a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
         <i class="ti-menu"></i>
@@ -78,7 +78,7 @@
           </ul>
         </div>
 
-        <a class="navbar-brand mx-auto desktop-view" href="https://yhchen753.github.io"><img class="img-fluid"
+        <a class="navbar-brand mx-auto desktop-view" href="https://yhchen753.github.io/"><img class="img-fluid"
             src="https://yhchen753.github.io/images/%E9%A6%96%E9%A0%81logo.png" alt="YH Chen | Personal blog"></a>
 
         <ul class="navbar-nav">
@@ -102,7 +102,7 @@
         <div class="search pl-lg-4">
           <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
           <div class="search-wrapper">
-            <form action="https://yhchen753.github.io/search" class="h-100">
+            <form action="https://yhchen753.github.io//search" class="h-100">
               <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
             </form>
             <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
@@ -141,52 +141,52 @@
 <p>不過，接下來使用的範例不會是完整的全球 GDP 資料，詳細的原因和完整的使用情境可以參考之前的文章：<a href="/blog/da-4-stata">【Stata】計算累計加總的方法</a></p>
 <h5 id="原始資料">原始資料</h5>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Excel欄位</th>
-<th style="text-align:left">A</th>
-<th style="text-align:left">B</th>
-<th style="text-align:left">C</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">1</td>
-<td style="text-align:left"><strong>Country</strong></td>
-<td style="text-align:left"><strong>GDP2021</strong></td>
-<td style="text-align:left"><strong>GDPpercent</strong></td>
-</tr>
-<tr>
-<td style="text-align:left">2</td>
-<td style="text-align:left">USA</td>
-<td style="text-align:left">2.332E+13</td>
-<td style="text-align:left">44%</td>
-</tr>
-<tr>
-<td style="text-align:left">3</td>
-<td style="text-align:left">China</td>
-<td style="text-align:left">1.782E+13</td>
-<td style="text-align:left">33%</td>
-</tr>
-<tr>
-<td style="text-align:left">4</td>
-<td style="text-align:left">Germany</td>
-<td style="text-align:left">4.260E+12</td>
-<td style="text-align:left">8%</td>
-</tr>
-<tr>
-<td style="text-align:left">5</td>
-<td style="text-align:left">UK</td>
-<td style="text-align:left">3.122E+12</td>
-<td style="text-align:left">6%</td>
-</tr>
-<tr>
-<td style="text-align:left">6</td>
-<td style="text-align:left">Japan</td>
-<td style="text-align:left">5.006E+12</td>
-<td style="text-align:left">9%</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Excel欄位</th>
+          <th style="text-align: left">A</th>
+          <th style="text-align: left">B</th>
+          <th style="text-align: left">C</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left"><strong>Country</strong></td>
+          <td style="text-align: left"><strong>GDP2021</strong></td>
+          <td style="text-align: left"><strong>GDPpercent</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">2</td>
+          <td style="text-align: left">USA</td>
+          <td style="text-align: left">2.332E+13</td>
+          <td style="text-align: left">44%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">3</td>
+          <td style="text-align: left">China</td>
+          <td style="text-align: left">1.782E+13</td>
+          <td style="text-align: left">33%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">4</td>
+          <td style="text-align: left">Germany</td>
+          <td style="text-align: left">4.260E+12</td>
+          <td style="text-align: left">8%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">5</td>
+          <td style="text-align: left">UK</td>
+          <td style="text-align: left">3.122E+12</td>
+          <td style="text-align: left">6%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">6</td>
+          <td style="text-align: left">Japan</td>
+          <td style="text-align: left">5.006E+12</td>
+          <td style="text-align: left">9%</td>
+      </tr>
+  </tbody>
 </table>
 <p><a href="https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?end=2022&amp;start=1960&amp;view=chart">*GDP的資料可以從世界銀行 (World Bank) 的網站下載</a></p>
 <hr>
@@ -201,73 +201,73 @@
 </li>
 </ol>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Excel欄位</th>
-<th style="text-align:left">A</th>
-<th style="text-align:left">B</th>
-<th style="text-align:left">C</th>
-<th style="text-align:left">D</th>
-<th style="text-align:left">E</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">1</td>
-<td style="text-align:left"><strong>Country</strong></td>
-<td style="text-align:left"><strong>GDP2021</strong></td>
-<td style="text-align:left"><strong>GDPpercent</strong></td>
-<td style="text-align:left"><strong>cumulative</strong></td>
-<td style="text-align:left"><strong>Excel語法</strong></td>
-</tr>
-<tr>
-<td style="text-align:left">2</td>
-<td style="text-align:left">USA</td>
-<td style="text-align:left">2.332E+13</td>
-<td style="text-align:left">44%</td>
-<td style="text-align:left">44%</td>
-<td style="text-align:left">=SUM($C$2:C2)</td>
-</tr>
-<tr>
-<td style="text-align:left">3</td>
-<td style="text-align:left">China</td>
-<td style="text-align:left">1.782E+13</td>
-<td style="text-align:left">33%</td>
-<td style="text-align:left">77%</td>
-<td style="text-align:left">=SUM($C$2:C3)</td>
-</tr>
-<tr>
-<td style="text-align:left">4</td>
-<td style="text-align:left">Japan</td>
-<td style="text-align:left">5.006E+12</td>
-<td style="text-align:left">9%</td>
-<td style="text-align:left">86%</td>
-<td style="text-align:left">=SUM($C$2:C4)</td>
-</tr>
-<tr>
-<td style="text-align:left">5</td>
-<td style="text-align:left">Germany</td>
-<td style="text-align:left">4.260E+12</td>
-<td style="text-align:left">8%</td>
-<td style="text-align:left">94%</td>
-<td style="text-align:left">=SUM($C$2:C5)</td>
-</tr>
-<tr>
-<td style="text-align:left">6</td>
-<td style="text-align:left">UK</td>
-<td style="text-align:left">3.122E+12</td>
-<td style="text-align:left">6%</td>
-<td style="text-align:left">100%</td>
-<td style="text-align:left">=SUM($C$2:C6)</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Excel欄位</th>
+          <th style="text-align: left">A</th>
+          <th style="text-align: left">B</th>
+          <th style="text-align: left">C</th>
+          <th style="text-align: left">D</th>
+          <th style="text-align: left">E</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left"><strong>Country</strong></td>
+          <td style="text-align: left"><strong>GDP2021</strong></td>
+          <td style="text-align: left"><strong>GDPpercent</strong></td>
+          <td style="text-align: left"><strong>cumulative</strong></td>
+          <td style="text-align: left"><strong>Excel語法</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">2</td>
+          <td style="text-align: left">USA</td>
+          <td style="text-align: left">2.332E+13</td>
+          <td style="text-align: left">44%</td>
+          <td style="text-align: left">44%</td>
+          <td style="text-align: left">=SUM($C$2:C2)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">3</td>
+          <td style="text-align: left">China</td>
+          <td style="text-align: left">1.782E+13</td>
+          <td style="text-align: left">33%</td>
+          <td style="text-align: left">77%</td>
+          <td style="text-align: left">=SUM($C$2:C3)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">4</td>
+          <td style="text-align: left">Japan</td>
+          <td style="text-align: left">5.006E+12</td>
+          <td style="text-align: left">9%</td>
+          <td style="text-align: left">86%</td>
+          <td style="text-align: left">=SUM($C$2:C4)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">5</td>
+          <td style="text-align: left">Germany</td>
+          <td style="text-align: left">4.260E+12</td>
+          <td style="text-align: left">8%</td>
+          <td style="text-align: left">94%</td>
+          <td style="text-align: left">=SUM($C$2:C5)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">6</td>
+          <td style="text-align: left">UK</td>
+          <td style="text-align: left">3.122E+12</td>
+          <td style="text-align: left">6%</td>
+          <td style="text-align: left">100%</td>
+          <td style="text-align: left">=SUM($C$2:C6)</td>
+      </tr>
+  </tbody>
 </table>
 
         </div>
 
         
         <div id="disqus_thread"></div>
-<script type="application/javascript">
+<script>
     window.disqus_config = function () {
     
     

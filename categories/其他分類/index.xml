@@ -4,7 +4,7 @@
     <title>其他分類 on YH Chen | Personal blog</title>
     <link>https://yhchen753.github.io/categories/%E5%85%B6%E4%BB%96%E5%88%86%E9%A1%9E/</link>
     <description>Recent content in 其他分類 on YH Chen | Personal blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-tw</language>
     <lastBuildDate>Mon, 25 Dec 2023 00:00:00 +0800</lastBuildDate>
     <atom:link href="https://yhchen753.github.io/categories/%E5%85%B6%E4%BB%96%E5%88%86%E9%A1%9E/index.xml" rel="self" type="application/rss+xml" />
@@ -13,11 +13,7 @@
       <link>https://yhchen753.github.io/blog/start/</link>
       <pubDate>Mon, 25 Dec 2023 00:00:00 +0800</pubDate>
       <guid>https://yhchen753.github.io/blog/start/</guid>
-      <description>這是網站第一篇文章，想來說說為什麼想要建立自己的個人網站和整個架站的過程和心得
-1. 建立個人網站的原因
-會想要架設自己的個人網站，是因為想要紀錄自己學習數據分析過程之中學到的東西和軟體的操作技巧，像是有一些軟體上很棒的功能和小技巧，常常因為使用到的機會不高，很容易忘記，等到真的要用的時候又要花非常多的時間在網上搜尋，所以就想要利用網站的方式慢慢建立自己的筆記和學習心得，或許也有機會幫助到正在學習數據分析的人。
-2. 架站過程和心得
-整個架站的過程是跟著hahow上面的 &amp;laquo;Github 免費架站術！&amp;raquo; 課程 一步一步完成的，在上課的當下我是對HTML語言完全沒有概念的，但因為有在學習Python和R，所以對於介面上密密麻麻的程式不會感覺到害怕，按照課程架構順順的就把網站架設起來了，加上現階段建立個人網站的目標是想要累積內容，所以對美化的版面也沒有太大的需求，不過因為這次從無到有的架站經驗，讓我會想要多了解HTML和網頁相關的概念，簡短的架站心得當作個人網站的起點，之後這裡主要會紀錄數據分析學習相關的內容和一些讀過覺得不錯的好書。</description>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;這是網站第一篇文章，想來說說為什麼想要建立自己的個人網站和整個架站的過程和心得&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1. 建立個人網站的原因&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;會想要架設自己的個人網站，是因為想要紀錄自己學習數據分析過程之中學到的東西和軟體的操作技巧，像是有一些軟體上很棒的功能和小技巧，常常因為使用到的機會不高，很容易忘記，等到真的要用的時候又要花非常多的時間在網上搜尋，所以就想要利用網站的方式慢慢建立自己的筆記和學習心得，或許也有機會幫助到正在學習數據分析的人。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2. 架站過程和心得&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;整個架站的過程是跟著hahow上面的 &amp;laquo;Github 免費架站術！&amp;raquo; 課程 一步一步完成的，在上課的當下我是對HTML語言完全沒有概念的，但因為有在學習Python和R，所以對於介面上密密麻麻的程式不會感覺到害怕，按照課程架構順順的就把網站架設起來了，加上現階段建立個人網站的目標是想要累積內容，所以對美化的版面也沒有太大的需求，不過因為這次從無到有的架站經驗，讓我會想要多了解HTML和網頁相關的概念，簡短的架站心得當作個人網站的起點，之後這裡主要會紀錄數據分析學習相關的內容和一些讀過覺得不錯的好書。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

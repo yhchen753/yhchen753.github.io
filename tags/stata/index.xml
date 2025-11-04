@@ -4,7 +4,7 @@
     <title>Stata on YH Chen | Personal blog</title>
     <link>https://yhchen753.github.io/tags/stata/</link>
     <description>Recent content in Stata on YH Chen | Personal blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-tw</language>
     <lastBuildDate>Thu, 31 Oct 2024 15:00:00 +0800</lastBuildDate>
     <atom:link href="https://yhchen753.github.io/tags/stata/index.xml" rel="self" type="application/rss+xml" />
@@ -13,47 +13,35 @@
       <link>https://yhchen753.github.io/blog/da-11-stata/</link>
       <pubDate>Thu, 31 Oct 2024 15:00:00 +0800</pubDate>
       <guid>https://yhchen753.github.io/blog/da-11-stata/</guid>
-      <description>使用情境 之前在 【Stata】基準值設定 的文章中介紹過基準值的設定，但那時候只考慮了提取資料中某一個年份的值作為基準值
-但考慮到有時候使用一段區間的平均值，來設定基準值可能會更符合資料分析應用的實際情況，因此在這篇文章是要示範如何計算資料中某一段區間的平均值，並將計算的結果作為基準值
-原始資料 資料的使用，同樣沿用 【Stata】基準值設定 文章中的資料， 使用 世界銀行 (World Bank)的全球GDP資料</description>
+      <description>&lt;hr&gt;&#xA;&lt;h5 id=&#34;使用情境&#34;&gt;使用情境&lt;/h5&gt;&#xA;&lt;p&gt;之前在 &lt;a href=&#34;https://yhchen753.github.io/blog/da-1-stata&#34;&gt;【Stata】基準值設定&lt;/a&gt; 的文章中介紹過基準值的設定，但那時候只考慮了提取資料中某一個年份的值作為基準值&lt;/p&gt;&#xA;&lt;p&gt;但考慮到有時候使用一段區間的平均值，來設定基準值可能會更符合資料分析應用的實際情況，因此在這篇文章是要示範如何計算資料中某一段區間的平均值，並將計算的結果作為基準值&lt;/p&gt;&#xA;&lt;h5 id=&#34;原始資料&#34;&gt;原始資料&lt;/h5&gt;&#xA;&lt;p&gt;資料的使用，同樣沿用 &lt;a href=&#34;https://yhchen753.github.io/blog/da-1-stata&#34;&gt;【Stata】基準值設定&lt;/a&gt; 文章中的資料， 使用 &lt;a href=&#34;https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?end=2022&amp;amp;start=1960&amp;amp;view=chart&#34;&gt;世界銀行 (World Bank)的全球GDP資料&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>【Stata】找出同類別的最大或最小值</title>
       <link>https://yhchen753.github.io/blog/da-10-stata/</link>
       <pubDate>Mon, 21 Oct 2024 22:30:00 +0800</pubDate>
       <guid>https://yhchen753.github.io/blog/da-10-stata/</guid>
-      <description>使用情境 完整的使用情境可以參考之前的文章：【Excel】找出同類別的最大或最小值
-原始資料 資料使用內政部戶政司全球資訊網：台灣各地人口增長率資料
-下載的資料經過簡單的整理後，只留下六都 107-109年的資料 (如下圖)
-*圖片來源：YH Chen</description>
+      <description>&lt;hr&gt;&#xA;&lt;h5 id=&#34;使用情境&#34;&gt;使用情境&lt;/h5&gt;&#xA;&lt;p&gt;完整的使用情境可以參考之前的文章：&lt;a href=&#34;https://yhchen753.github.io/blog/da-8-excel&#34;&gt;【Excel】找出同類別的最大或最小值&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h5 id=&#34;原始資料&#34;&gt;原始資料&lt;/h5&gt;&#xA;&lt;p&gt;資料使用&lt;a href=&#34;https://www.ris.gov.tw/app/portal/346&#34;&gt;內政部戶政司全球資訊網&lt;/a&gt;：台灣各地人口增長率資料&lt;/p&gt;&#xA;&lt;p&gt;下載的資料經過簡單的整理後，只留下六都 107-109年的資料 (如下圖)&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://yhchen753.github.io/images/post/da-10.1-Stata.png&#34; alt=&#34;da-10.1-Stata&#34;&gt; *圖片來源：YH Chen&lt;/p&gt;</description>
     </item>
     <item>
       <title>【Stata】整理資料時要注意模糊比對功能</title>
       <link>https://yhchen753.github.io/blog/da-9-stata/</link>
       <pubDate>Sat, 31 Aug 2024 23:00:00 +0800</pubDate>
       <guid>https://yhchen753.github.io/blog/da-9-stata/</guid>
-      <description>使用情境 這一篇是非常簡單，主要是用來提醒自己在整理資料的時候需要注意的小地方
-大部分的數據分析工具，在做資料分析的時候都會有模糊比對和完全比對兩種功能
-模糊比對在多數的情況下是很棒的功能，但是&amp;hellip;
-當我們在做數據分析，最一開始資料整理的時候，就需要特別小心資料變數的建立和設定
-我曾經因為在第一步的資料整理部分，沒有注意到Stata的模糊比對，導致後面要花很多時間回頭對資料
-這部分很重要，因為如果我們沒有辦確認變數的定義，產出的結果就會是錯誤的
-原始資料 這次的示範不用理解變數定義，直接使用 Stata 內建的資料庫 sysuse nlsw88, clear</description>
+      <description>&lt;hr&gt;&#xA;&lt;h5 id=&#34;使用情境&#34;&gt;使用情境&lt;/h5&gt;&#xA;&lt;p&gt;這一篇是非常簡單，主要是用來提醒自己在整理資料的時候需要注意的小地方&lt;/p&gt;&#xA;&lt;p&gt;大部分的數據分析工具，在做資料分析的時候都會有模糊比對和完全比對兩種功能&lt;/p&gt;&#xA;&lt;p&gt;模糊比對在多數的情況下是很棒的功能，但是&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;當我們在做數據分析，最一開始資料整理的時候，就需要特別小心資料變數的建立和設定&lt;/p&gt;&#xA;&lt;p&gt;我曾經因為在第一步的資料整理部分，沒有注意到Stata的模糊比對，導致後面要花很多時間回頭對資料&lt;/p&gt;&#xA;&lt;p&gt;這部分很重要，因為如果我們沒有辦確認變數的定義，產出的結果就會是錯誤的&lt;/p&gt;&#xA;&lt;h5 id=&#34;原始資料&#34;&gt;原始資料&lt;/h5&gt;&#xA;&lt;p&gt;這次的示範不用理解變數定義，直接使用 Stata 內建的資料庫  &lt;code&gt;sysuse nlsw88, clear&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>【Stata】計算累計加總的方法</title>
       <link>https://yhchen753.github.io/blog/da-4-stata/</link>
       <pubDate>Sat, 27 Apr 2024 19:00:00 +0800</pubDate>
       <guid>https://yhchen753.github.io/blog/da-4-stata/</guid>
-      <description>使用情境 這篇文章的發想來自 82 法則 (Pareto Principle)，常見的說法是 80% 的財富集中在 20% 的人手上，如果我們有這份財富統計資料，想要知道這 20% 的人的名單的話，就可以用「累積加總」的概念找出 80% 的財富是集中在哪些人的手上。</description>
+      <description>&lt;hr&gt;&#xA;&lt;h5 id=&#34;使用情境&#34;&gt;使用情境&lt;/h5&gt;&#xA;&lt;p&gt;這篇文章的發想來自 82 法則 (Pareto Principle)，常見的說法是 80% 的財富集中在 20% 的人手上，如果我們有這份財富統計資料，想要知道這 20% 的人的名單的話，就可以用「累積加總」的概念找出 80% 的財富是集中在哪些人的手上。&lt;/p&gt;</description>
     </item>
     <item>
       <title>【Stata】基準值設定</title>
       <link>https://yhchen753.github.io/blog/da-1-stata/</link>
       <pubDate>Sat, 20 Jan 2024 15:00:00 +0800</pubDate>
       <guid>https://yhchen753.github.io/blog/da-1-stata/</guid>
-      <description>使用情境 當我們想要看各國 GDP 的變動情形，會需要2個步驟：
-Step 1. 建立基準年變數 Base2020 ， 以 2020年的 GDP 資料為基準年</description>
+      <description>&lt;hr&gt;&#xA;&lt;h5 id=&#34;使用情境&#34;&gt;使用情境&lt;/h5&gt;&#xA;&lt;p&gt;當我們想要看各國 GDP 的變動情形，會需要2個步驟：&lt;/p&gt;&#xA;&lt;p&gt;Step 1. 建立基準年變數 &lt;code&gt;Base2020&lt;/code&gt; ， 以 2020年的 GDP 資料為基準年&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

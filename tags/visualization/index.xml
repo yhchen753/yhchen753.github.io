@@ -4,7 +4,7 @@
     <title>Visualization on YH Chen | Personal blog</title>
     <link>https://yhchen753.github.io/tags/visualization/</link>
     <description>Recent content in Visualization on YH Chen | Personal blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-tw</language>
     <lastBuildDate>Sat, 30 Mar 2024 23:00:00 +0800</lastBuildDate>
     <atom:link href="https://yhchen753.github.io/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
@@ -13,18 +13,14 @@
       <link>https://yhchen753.github.io/blog/da-3-excel/</link>
       <pubDate>Sat, 30 Mar 2024 23:00:00 +0800</pubDate>
       <guid>https://yhchen753.github.io/blog/da-3-excel/</guid>
-      <description>資料型態介紹 這次是要介紹 Excel 使用，但在一開始要說一下資料的型態可以分成兩種： 1. Panel data (縱橫資料) 2. Cross-sectional data (截面資料)，後面 Excel 的示範會需要注意到資料的型態，操作上會有一點點的差異，不過基本上只要夠熟悉自己手邊要分析的資料，資料型態是可以互換的。</description>
+      <description>&lt;hr&gt;&#xA;&lt;h5 id=&#34;資料型態介紹&#34;&gt;資料型態介紹&lt;/h5&gt;&#xA;&lt;p&gt;這次是要介紹 Excel 使用，但在一開始要說一下資料的型態可以分成兩種： 1. Panel data (縱橫資料)  2. Cross-sectional data (截面資料)，後面 Excel 的示範會需要注意到資料的型態，操作上會有一點點的差異，不過基本上只要夠熟悉自己手邊要分析的資料，資料型態是可以互換的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>【Tableau】圓餅圖、圓環圖 設定</title>
       <link>https://yhchen753.github.io/blog/da-2-tableau/</link>
       <pubDate>Sat, 17 Feb 2024 14:00:00 +0800</pubDate>
       <guid>https://yhchen753.github.io/blog/da-2-tableau/</guid>
-      <description>使用情境 不管是在什麼領域和情境下，圓餅圖都是我們很常會使用到的資料視覺化圖形。
-不過以我自己的經驗來說，圓餅圖有時候在文件和簡報的排版上，呈現出來效果的不太理想 (看起來太重或是很擠)，這時候改成用圓環圖來呈現的話，文件或簡報就會看起來相對簡約和美觀。
-這次會分別記錄圓餅圖、圓環圖的設定，不過主要是想要介紹『圓環圖』的設定。
-使用台灣人口結構分佈的資料來做示範，為了方便操作有事先將資料整理過和簡化，完整的台灣人口統計資料可以從內政部戶政司的網站下載，整理後的資料形式如下：
-原始資料 年齡區段 人口數 人口數 (%) 0-19歲 3,829,910 16.</description>
+      <description>&lt;hr&gt;&#xA;&lt;h5 id=&#34;使用情境&#34;&gt;使用情境&lt;/h5&gt;&#xA;&lt;p&gt;不管是在什麼領域和情境下，圓餅圖都是我們很常會使用到的資料視覺化圖形。&lt;/p&gt;&#xA;&lt;p&gt;不過以我自己的經驗來說，圓餅圖有時候在文件和簡報的排版上，呈現出來效果的不太理想 (看起來太重或是很擠)，這時候改成用圓環圖來呈現的話，文件或簡報就會看起來相對簡約和美觀。&lt;/p&gt;&#xA;&lt;p&gt;這次會分別記錄圓餅圖、圓環圖的設定，不過主要是想要介紹『圓環圖』的設定。&lt;/p&gt;&#xA;&lt;p&gt;使用台灣人口結構分佈的資料來做示範，為了方便操作有事先將資料整理過和簡化，完整的台灣人口統計資料可以從&lt;a href=&#34;https://www.ris.gov.tw/app/portal/346&#34;&gt;內政部戶政司的網站下載&lt;/a&gt;，整理後的資料形式如下：&lt;/p&gt;&#xA;&lt;h5 id=&#34;原始資料&#34;&gt;原始資料&lt;/h5&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;年齡區段&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;人口數&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;人口數 (%)&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;0-19歲&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;3,829,910&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;16.35&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;20-64歲&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;15,293,547&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;65.30&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;65歲以上&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;4,296,985&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;18.35&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;*資料截至2023年12月底&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

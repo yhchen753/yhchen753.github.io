@@ -11,7 +11,7 @@
   
   <meta name="theme-name" content="liva-hugo" />
   
-  <meta name="generator" content="Hugo 0.120.4">
+  <meta name="generator" content="Hugo 0.139.5">
 
   <!-- plugins -->
   
@@ -57,7 +57,7 @@
   <div class="container">
     
     <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
-      <a class="navbar-brand mobile-view" href="https://yhchen753.github.io"><img class="img-fluid"
+      <a class="navbar-brand mobile-view" href="https://yhchen753.github.io/"><img class="img-fluid"
           src="https://yhchen753.github.io/images/%E9%A6%96%E9%A0%81logo.png" alt="YH Chen | Personal blog"></a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
         <i class="ti-menu"></i>
@@ -78,7 +78,7 @@
           </ul>
         </div>
 
-        <a class="navbar-brand mx-auto desktop-view" href="https://yhchen753.github.io"><img class="img-fluid"
+        <a class="navbar-brand mx-auto desktop-view" href="https://yhchen753.github.io/"><img class="img-fluid"
             src="https://yhchen753.github.io/images/%E9%A6%96%E9%A0%81logo.png" alt="YH Chen | Personal blog"></a>
 
         <ul class="navbar-nav">
@@ -102,7 +102,7 @@
         <div class="search pl-lg-4">
           <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
           <div class="search-wrapper">
-            <form action="https://yhchen753.github.io/search" class="h-100">
+            <form action="https://yhchen753.github.io//search" class="h-100">
               <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
             </form>
             <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
@@ -143,40 +143,40 @@
 <p>所以我自己在做筆記和練習分享的時候，會盡量用最簡潔和好懂的數據做介紹，瞭解語法的概念或步驟，才可以實際應用在自己手邊的資料，畢竟每個人要應用的情境都不相同。</p>
 <h5 id="原始資料">原始資料</h5>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Country</th>
-<th style="text-align:left">GDP2021</th>
-<th style="text-align:left">GDPpercent</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">USA</td>
-<td style="text-align:left">2.332E+13</td>
-<td style="text-align:left">44%</td>
-</tr>
-<tr>
-<td style="text-align:left">China</td>
-<td style="text-align:left">1.782E+13</td>
-<td style="text-align:left">33%</td>
-</tr>
-<tr>
-<td style="text-align:left">Germany</td>
-<td style="text-align:left">4.260E+12</td>
-<td style="text-align:left">8%</td>
-</tr>
-<tr>
-<td style="text-align:left">UK</td>
-<td style="text-align:left">3.122E+12</td>
-<td style="text-align:left">6%</td>
-</tr>
-<tr>
-<td style="text-align:left">Japan</td>
-<td style="text-align:left">5.006E+12</td>
-<td style="text-align:left">9%</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Country</th>
+          <th style="text-align: left">GDP2021</th>
+          <th style="text-align: left">GDPpercent</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">USA</td>
+          <td style="text-align: left">2.332E+13</td>
+          <td style="text-align: left">44%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">China</td>
+          <td style="text-align: left">1.782E+13</td>
+          <td style="text-align: left">33%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Germany</td>
+          <td style="text-align: left">4.260E+12</td>
+          <td style="text-align: left">8%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">UK</td>
+          <td style="text-align: left">3.122E+12</td>
+          <td style="text-align: left">6%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Japan</td>
+          <td style="text-align: left">5.006E+12</td>
+          <td style="text-align: left">9%</td>
+      </tr>
+  </tbody>
 </table>
 <p><a href="https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?end=2022&amp;start=1960&amp;view=chart">*GDP的資料可以從世界銀行 (World Bank) 的網站下載</a></p>
 <hr>
@@ -203,53 +203,53 @@ forv obs_number = 1/`=_N&#39; {
 }
 </code></pre><h5 id="建立--cumulative--後的資料">建立 <code>cumulative</code> 後的資料</h5>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Country</th>
-<th style="text-align:left">GDP2021</th>
-<th style="text-align:left">GDPpercent</th>
-<th style="text-align:left">cumulative</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">USA</td>
-<td style="text-align:left">2.332E+13</td>
-<td style="text-align:left">44%</td>
-<td style="text-align:left">44%</td>
-</tr>
-<tr>
-<td style="text-align:left">China</td>
-<td style="text-align:left">1.782E+13</td>
-<td style="text-align:left">33%</td>
-<td style="text-align:left">77%</td>
-</tr>
-<tr>
-<td style="text-align:left">Japan</td>
-<td style="text-align:left">5.006E+12</td>
-<td style="text-align:left">9%</td>
-<td style="text-align:left">86%</td>
-</tr>
-<tr>
-<td style="text-align:left">Germany</td>
-<td style="text-align:left">4.260E+12</td>
-<td style="text-align:left">8%</td>
-<td style="text-align:left">94%</td>
-</tr>
-<tr>
-<td style="text-align:left">UK</td>
-<td style="text-align:left">3.122E+12</td>
-<td style="text-align:left">6%</td>
-<td style="text-align:left">100%</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Country</th>
+          <th style="text-align: left">GDP2021</th>
+          <th style="text-align: left">GDPpercent</th>
+          <th style="text-align: left">cumulative</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">USA</td>
+          <td style="text-align: left">2.332E+13</td>
+          <td style="text-align: left">44%</td>
+          <td style="text-align: left">44%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">China</td>
+          <td style="text-align: left">1.782E+13</td>
+          <td style="text-align: left">33%</td>
+          <td style="text-align: left">77%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Japan</td>
+          <td style="text-align: left">5.006E+12</td>
+          <td style="text-align: left">9%</td>
+          <td style="text-align: left">86%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Germany</td>
+          <td style="text-align: left">4.260E+12</td>
+          <td style="text-align: left">8%</td>
+          <td style="text-align: left">94%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">UK</td>
+          <td style="text-align: left">3.122E+12</td>
+          <td style="text-align: left">6%</td>
+          <td style="text-align: left">100%</td>
+      </tr>
+  </tbody>
 </table>
 
         </div>
 
         
         <div id="disqus_thread"></div>
-<script type="application/javascript">
+<script>
     window.disqus_config = function () {
     
     

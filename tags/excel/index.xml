@@ -4,7 +4,7 @@
     <title>Excel on YH Chen | Personal blog</title>
     <link>https://yhchen753.github.io/tags/excel/</link>
     <description>Recent content in Excel on YH Chen | Personal blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-tw</language>
     <lastBuildDate>Sat, 27 Jul 2024 17:08:00 +0800</lastBuildDate>
     <atom:link href="https://yhchen753.github.io/tags/excel/index.xml" rel="self" type="application/rss+xml" />
@@ -13,35 +13,28 @@
       <link>https://yhchen753.github.io/blog/da-8-excel/</link>
       <pubDate>Sat, 27 Jul 2024 17:08:00 +0800</pubDate>
       <guid>https://yhchen753.github.io/blog/da-8-excel/</guid>
-      <description>使用情境 這篇的內容我自己覺得非常實用，不過在下筆的時候才發現方法的使用不容易文字化
-那就用每個人都一定熟悉的情境來為這次要介紹的方法做舉例：考試成績
-假設整個學期，數學會有 5 次的小考，可以用這 5 次小考中最高分的那一次，當作整學期數學的平時成績，在這樣的情況下，就可以用 「找出同類別 (同學) 中最大值 (成績)」這個方法，找出每一位同學 5 次小考中成績最高的那一次</description>
+      <description>&lt;hr&gt;&#xA;&lt;h5 id=&#34;使用情境&#34;&gt;使用情境&lt;/h5&gt;&#xA;&lt;p&gt;這篇的內容我自己覺得非常實用，不過在下筆的時候才發現方法的使用不容易文字化&lt;/p&gt;&#xA;&lt;p&gt;那就用每個人都一定熟悉的情境來為這次要介紹的方法做舉例：考試成績&lt;/p&gt;&#xA;&lt;p&gt;假設整個學期，數學會有 5 次的小考，可以用這 5 次小考中最高分的那一次，當作整學期數學的平時成績，在這樣的情況下，就可以用 「找出同類別 (同學) 中最大值 (成績)」這個方法，找出每一位同學 5 次小考中成績最高的那一次&lt;/p&gt;</description>
     </item>
     <item>
       <title>【Excel】快速批次將文字轉成數字</title>
       <link>https://yhchen753.github.io/blog/da-7-excel/</link>
       <pubDate>Mon, 03 Jun 2024 23:05:00 +0800</pubDate>
       <guid>https://yhchen753.github.io/blog/da-7-excel/</guid>
-      <description>使用情境 這篇的內容非常的簡單，但卻是很容易會忘記可以使用到的小技巧
-像是有時候取得的資料，會出現&amp;quot;數字&amp;quot;卻是以&amp;quot;文字形式&amp;quot;儲存的狀況 (儲存格左上角會出現三角形圖示，如下圖)
-*圖片來源：YH Chen
-這個時候如果直接對&amp;quot;文字形式&amp;quot;的&amp;quot;數字&amp;quot;進行加總 SUM(B2:B17)，就沒有辦法得到正確的結果
-在資料筆數較少的情況下，也許可以手動一個一個點&amp;quot;轉換成數字&amp;quot; (如下圖)</description>
+      <description>&lt;hr&gt;&#xA;&lt;h5 id=&#34;使用情境&#34;&gt;使用情境&lt;/h5&gt;&#xA;&lt;p&gt;這篇的內容非常的簡單，但卻是很容易會忘記可以使用到的小技巧&lt;/p&gt;&#xA;&lt;p&gt;像是有時候取得的資料，會出現&amp;quot;數字&amp;quot;卻是以&amp;quot;文字形式&amp;quot;儲存的狀況 (儲存格左上角會出現三角形圖示，如下圖)&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://yhchen753.github.io/images/post/da-7.1-Excel.png&#34; alt=&#34;da-7.1-Excel&#34;&gt; *圖片來源：YH Chen&lt;/p&gt;&#xA;&lt;p&gt;這個時候如果直接對&amp;quot;文字形式&amp;quot;的&amp;quot;數字&amp;quot;進行加總 SUM(B2:B17)，就沒有辦法得到正確的結果&lt;/p&gt;&#xA;&lt;p&gt;在資料筆數較少的情況下，也許可以手動一個一個點&amp;quot;轉換成數字&amp;quot; (如下圖)&lt;/p&gt;</description>
     </item>
     <item>
       <title>【Excel】計算累計加總的方法</title>
       <link>https://yhchen753.github.io/blog/da-5-excel/</link>
       <pubDate>Sat, 27 Apr 2024 19:05:00 +0800</pubDate>
       <guid>https://yhchen753.github.io/blog/da-5-excel/</guid>
-      <description>使用情境 根據 82 法則，當我們想知道全球 80% 的GDP 是集中在哪些國家上，可以使用「累積加總」的概念，找出正確的國家名單。
-不過，接下來使用的範例不會是完整的全球 GDP 資料，詳細的原因和完整的使用情境可以參考之前的文章：【Stata】計算累計加總的方法</description>
+      <description>&lt;hr&gt;&#xA;&lt;h5 id=&#34;使用情境&#34;&gt;使用情境&lt;/h5&gt;&#xA;&lt;p&gt;根據 82 法則，當我們想知道全球 80% 的GDP 是集中在哪些國家上，可以使用「累積加總」的概念，找出正確的國家名單。&lt;/p&gt;&#xA;&lt;p&gt;不過，接下來使用的範例不會是完整的全球 GDP 資料，詳細的原因和完整的使用情境可以參考之前的文章：&lt;a href=&#34;https://yhchen753.github.io/blog/da-4-stata&#34;&gt;【Stata】計算累計加總的方法&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>【Excel】下拉式選單設定的兩個方法</title>
       <link>https://yhchen753.github.io/blog/da-3-excel/</link>
       <pubDate>Sat, 30 Mar 2024 23:00:00 +0800</pubDate>
       <guid>https://yhchen753.github.io/blog/da-3-excel/</guid>
-      <description>資料型態介紹 這次是要介紹 Excel 使用，但在一開始要說一下資料的型態可以分成兩種： 1. Panel data (縱橫資料) 2. Cross-sectional data (截面資料)，後面 Excel 的示範會需要注意到資料的型態，操作上會有一點點的差異，不過基本上只要夠熟悉自己手邊要分析的資料，資料型態是可以互換的。</description>
+      <description>&lt;hr&gt;&#xA;&lt;h5 id=&#34;資料型態介紹&#34;&gt;資料型態介紹&lt;/h5&gt;&#xA;&lt;p&gt;這次是要介紹 Excel 使用，但在一開始要說一下資料的型態可以分成兩種： 1. Panel data (縱橫資料)  2. Cross-sectional data (截面資料)，後面 Excel 的示範會需要注意到資料的型態，操作上會有一點點的差異，不過基本上只要夠熟悉自己手邊要分析的資料，資料型態是可以互換的。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
