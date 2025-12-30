@@ -6,14 +6,28 @@
     <description>Recent content in Blogs on YH Chen | Personal blog</description>
     <generator>Hugo</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 04 Nov 2025 19:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 30 Dec 2025 23:30:00 +0800</lastBuildDate>
     <atom:link href="https://yhchen753.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>用「中央廚房」學懂 API 的概念</title>
+      <title>【Vibe Coding】地球 World tour</title>
+      <link>https://yhchen753.github.io/blog/ai-2-vibe-coding/</link>
+      <pubDate>Tue, 30 Dec 2025 23:30:00 +0800</pubDate>
+      <guid>https://yhchen753.github.io/blog/ai-2-vibe-coding/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;這篇實作是參考，李慕約的 365 AI 訂閱計劃中的 &lt;a href=&#34;https://blog.gaiconf.com/workflow/globe/&#34;&gt;案例 #122 地球&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;地球視覺化的原始範例，來自 d3.js Gallery 中的 &lt;a href=&#34;https://observablehq.com/@d3/world-tour&#34;&gt;World tour&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>用「中央廚房」理解 API 的概念</title>
       <link>https://yhchen753.github.io/blog/ai-1-api/</link>
       <pubDate>Tue, 04 Nov 2025 19:00:00 +0800</pubDate>
       <guid>https://yhchen753.github.io/blog/ai-1-api/</guid>
       <description>&lt;hr&gt;&#xA;&lt;p&gt;如果你跟我一樣，曾經看過很多次「API」的定義， 但每次看完都還是霧煞煞，覺得很抽象，可以試試看用「中央廚房」來理解它。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h5 id=&#34;想像-openai-chatgpt-背後的公司就像一個超大型的中央廚房這個廚房提供兩種服務&#34;&gt;想像 OpenAI （ChatGPT 背後的公司）就像一個超大型的中央廚房，這個廚房提供兩種服務：&lt;/h5&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;直接用餐服務&lt;/strong&gt;：就是我們一般在使用的 ChatGPT (免費版或 Plus 付費版)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>車牌辨識</title>
+      <link>https://yhchen753.github.io/blog/sideproject-1-parking_lot/</link>
+      <pubDate>Thu, 26 Jun 2025 19:00:00 +0800</pubDate>
+      <guid>https://yhchen753.github.io/blog/sideproject-1-parking_lot/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;這是跟著 Hahow 線上課程，自己一步一步實作出來的車牌辨識網頁應用程式&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h5 id=&#34;簡介&#34;&gt;簡介&lt;/h5&gt;&#xA;&lt;p&gt;這個專案「小小停車場」是透過 &lt;code&gt;gradio&lt;/code&gt; 與 &lt;code&gt;easyocr&lt;/code&gt; 模組製作出一個以秒計費的停車場網頁應用程式。&lt;/p&gt;&#xA;&lt;p&gt;使用了 &lt;code&gt;easyocr&lt;/code&gt; 進行車牌辨識，透過 Python 函數與標準模組進行概念驗證，並以 &lt;code&gt;gradio&lt;/code&gt; 的介面做出成品。&lt;/p&gt;</description>
     </item>
     <item>
       <title>【Stata】基準值設定2 (區間的平均值)</title>

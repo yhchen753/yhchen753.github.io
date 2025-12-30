@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>作品集 on YH Chen | Personal blog</title>
+    <link>https://yhchen753.github.io/categories/%E4%BD%9C%E5%93%81%E9%9B%86/</link>
+    <description>Recent content in 作品集 on YH Chen | Personal blog</description>
+    <generator>Hugo</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 30 Dec 2025 23:30:00 +0800</lastBuildDate>
+    <atom:link href="https://yhchen753.github.io/categories/%E4%BD%9C%E5%93%81%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【Vibe Coding】地球 World tour</title>
+      <link>https://yhchen753.github.io/blog/ai-2-vibe-coding/</link>
+      <pubDate>Tue, 30 Dec 2025 23:30:00 +0800</pubDate>
+      <guid>https://yhchen753.github.io/blog/ai-2-vibe-coding/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;這篇實作是參考，李慕約的 365 AI 訂閱計劃中的 &lt;a href=&#34;https://blog.gaiconf.com/workflow/globe/&#34;&gt;案例 #122 地球&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;地球視覺化的原始範例，來自 d3.js Gallery 中的 &lt;a href=&#34;https://observablehq.com/@d3/world-tour&#34;&gt;World tour&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>車牌辨識</title>
+      <link>https://yhchen753.github.io/blog/sideproject-1-parking_lot/</link>
+      <pubDate>Thu, 26 Jun 2025 19:00:00 +0800</pubDate>
+      <guid>https://yhchen753.github.io/blog/sideproject-1-parking_lot/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;這是跟著 Hahow 線上課程，自己一步一步實作出來的車牌辨識網頁應用程式&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h5 id=&#34;簡介&#34;&gt;簡介&lt;/h5&gt;&#xA;&lt;p&gt;這個專案「小小停車場」是透過 &lt;code&gt;gradio&lt;/code&gt; 與 &lt;code&gt;easyocr&lt;/code&gt; 模組製作出一個以秒計費的停車場網頁應用程式。&lt;/p&gt;&#xA;&lt;p&gt;使用了 &lt;code&gt;easyocr&lt;/code&gt; 進行車牌辨識，透過 Python 函數與標準模組進行概念驗證，並以 &lt;code&gt;gradio&lt;/code&gt; 的介面做出成品。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
