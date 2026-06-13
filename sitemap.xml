@@ -2,22 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yhchen753.github.io/blog/sideproject-2-thsr-ticket/</loc>
+    <lastmod>2026-06-13T18:50:00+08:00</lastmod>
+  </url><url>
     <loc>https://yhchen753.github.io/blog/</loc>
+    <lastmod>2026-06-13T18:50:00+08:00</lastmod>
+  </url><url>
+    <loc>https://yhchen753.github.io/categories/</loc>
+    <lastmod>2026-06-13T18:50:00+08:00</lastmod>
+  </url><url>
+    <loc>https://yhchen753.github.io/categories/vibe-coding/</loc>
     <lastmod>2026-06-13T18:50:00+08:00</lastmod>
   </url><url>
     <loc>https://yhchen753.github.io/</loc>
     <lastmod>2026-06-13T18:50:00+08:00</lastmod>
   </url><url>
-    <loc>https://yhchen753.github.io/blog/ai-2-vibe-coding/</loc>
-    <lastmod>2025-12-30T23:30:00+08:00</lastmod>
-  </url><url>
-    <loc>https://yhchen753.github.io/categories/</loc>
-    <lastmod>2025-12-30T23:30:00+08:00</lastmod>
-  </url><url>
-    <loc>https://yhchen753.github.io/categories/vibe-coding/</loc>
-    <lastmod>2025-12-30T23:30:00+08:00</lastmod>
-  </url><url>
     <loc>https://yhchen753.github.io/categories/%E4%BD%9C%E5%93%81%E9%9B%86/</loc>
+    <lastmod>2026-06-13T18:50:00+08:00</lastmod>
+  </url><url>
+    <loc>https://yhchen753.github.io/blog/ai-2-vibe-coding/</loc>
     <lastmod>2025-12-30T23:30:00+08:00</lastmod>
   </url><url>
     <loc>https://yhchen753.github.io/categories/ai-%E7%9B%B8%E9%97%9C/</loc>
