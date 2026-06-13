@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <title>YH Chen | Personal blog</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content=" ">
+  <meta name="author" content="YH Chen">
+    
+  
+  <meta name="theme-name" content="liva-hugo" />
+  
+  <meta name="generator" content="Hugo 0.139.5">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="http://localhost:1313/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="http://localhost:1313/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="http://localhost:1313/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="http://localhost:1313/images/favicon.png " type="image/x-icon">
+
+  
+  
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-70VGQKC6EQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-70VGQKC6EQ');
+</script>
+
+
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="http://localhost:1313/"><img class="img-fluid"
+          src="http://localhost:1313/images/%E9%A6%96%E9%A0%81logo.png" alt="YH Chen | Personal blog"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/yhchen753"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/yu-heng-chen-16039925a/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="http://localhost:1313/"><img class="img-fluid"
+            src="http://localhost:1313/images/%E9%A6%96%E9%A0%81logo.png" alt="YH Chen | Personal blog"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/">Home</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/about/">About</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="http://localhost:1313//search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/vibe-coding"
+          class="text-primary">Vibe coding</a>
+        
+        <a href="/categories/%e4%bd%9c%e5%93%81%e9%9b%86"
+          class="text-primary">作品集</a>
+        
+        <h2>【Vibe Coding】自動化高鐵查票工具</h2>
+        <div class="mb-3 post-meta">
+          <span>By YH Chen</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>12 June 2026</span>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <hr>
+<p>AI Vibe Coding ，開發了一款 Google Apps Script (GAS)  自動化高鐵查票工具</p>
+<p>可以透過連結，造訪<a href="https://docs.google.com/spreadsheets/d/17Oa8KKl2Ji68g2dsFgTDeDBmHyCT-du3nu0wsK0m_k0/edit?usp=sharing">成品</a></p>
+<hr>
+<h5 id="使用情境">使用情境</h5>
+<p>相信大家都有忘記訂高鐵票或臨時需要買票的經驗，這時候就只能趕快拿起手機瘋狂刷票</p>
+<p>但是，要在短時間內反覆手動刷新網頁和 App，真的是超級煩！</p>
+<p>我本來想說可以試試看用 ChatGPT 網頁版的代理模式</p>
+<p>讓它自動幫忙搜尋有沒有釋票，但是它會一直卡關在輸入驗證碼這個地方</p>
+<p>所以就換個方式用 Vibe Coding 開發出自動化查票工具</p>
+<hr>
+<h5 id="vibe-coding-步驟">Vibe Coding 步驟</h5>
+<p><strong>Step 1. 取得 TDX API</strong></p>
+<p>先到 <a href="https://tdx.transportdata.tw/">TDX</a> 註冊一個帳號，取得 API ( Client ID / Client Secret )</p>
+<p><strong>Step 2. 定義問題和釐清需求</strong></p>
+<p>先整理 Prompt，而不是直接叫 AI 開始寫程式 ，</p>
+<p>可以把 Prompt 拆成至少兩個部分：<code>遇到的問題(現況)</code>、<code>設定驗收條件(期待)</code></p>
+<pre tabindex="0"><code>### 遇到的問題(現況)
+
+有時候我會忘記訂高鐵車票，會想要透過自動化搜尋還有沒有票可以買，
+但透過自動化搜尋會碰到查詢高鐵訂位時需要輸入驗證碼，通常電腦在執行輸入驗證碼這一步都會出錯，
+這樣我就沒辦法自動化搜尋，而是要自己手動搜尋 。
+  
+### 設定驗收條件 (期待)
+
+- 使用者可以自行輸入特定日期、時段、起始站、抵達站
+- 查詢結果要包含班次、起始站、發車時間、抵達站、抵達時間、票況
+- 特定日期與時段有票時，系統會寄 Email 通知
+- 沒有票時不需要寄信
+</code></pre><hr>
+<p>初版出來後，我會反覆進行，<code>優化使用者操作體驗</code>、<code>安全性優化</code> 這兩個步驟，實際調整的內容如下</p>
+<p><strong>Step 3. 優化使用者操作體驗</strong></p>
+<ul>
+<li>
+<p>加入 onOpen()，在 Google Sheet 頁面建立自訂選單，讓使用者不需要進入 Google Apps Script 後台也能執行功能</p>
+</li>
+<li>
+<p>支援單次查詢或定期自動化查詢</p>
+</li>
+<li>
+<p>加入「最新的執行時間」欄位，方便確認自動化查詢是否仍在執行</p>
+</li>
+<li>
+<p>使用者可以直接在 Google Sheet 上方選單輸入或更新自己的 API。整個過程不需要進入 Apps Script 後台，降低操作門檻</p>
+</li>
+<li>
+<p>拿掉 「避免重複寄信」功能， 改成只要每次查詢有符合條件的班次就寄出 Email，讓通知邏輯更直覺，降低錯過票況變化的風險</p>
+</li>
+</ul>
+<p><strong>Step 4. 安全性優化</strong></p>
+<ul>
+<li>
+<p>TDX API 不直接寫死在 Google Apps Script 程式碼中，而是讓使用者自行輸入，避免個人 API 外洩</p>
+</li>
+<li>
+<p>加入停止自動查詢功能，避免造成不必要的 API 呼叫或 Email 通知</p>
+</li>
+</ul>
+<hr>
+<h5 id="專案成果">專案成果</h5>
+<p>這個工具結合了 Google Apps Script (GAS) 零成本部署的優勢</p>
+<p>成功將原本需要人工重複刷票的繁瑣過程，轉換成可以自動化定時查詢，並在有票時主動寄送 Email 通知的查票系統</p>
+<ul>
+<li>Email 通知截圖</li>
+</ul>
+<p><img src="/images/post/sideproject-2-email.png" alt="sideproject-2-email"> *圖片來源：YH Chen</p>
+<hr>
+<h5 id="成果心得">成果心得</h5>
+<p>在這次實作過程中，我感受到現在真正困難的地方，已經不再是寫程式本身了，而是有沒有能清楚定義問題、拆解需求的能力</p>
+<p>也就是說，現在真正重要的是如何「問對問題」，並且透過 Vibe Coding 的方式快速驗證迭代，把想法落地貼近真實的使用情境</p>
+
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yhchen753" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<script>
+  var indexURL = "http://localhost:1313/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="http://localhost:1313/plugins/jQuery/jquery.min.js"></script>
+
+<script src="http://localhost:1313/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="http://localhost:1313/plugins/slick/slick.min.js"></script>
+
+<script src="http://localhost:1313/plugins/venobox/venobox.min.js"></script>
+
+<script src="http://localhost:1313/plugins/search/fuse.min.js"></script>
+
+<script src="http://localhost:1313/plugins/search/mark.js"></script>
+
+<script src="http://localhost:1313/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="http://localhost:1313/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>
